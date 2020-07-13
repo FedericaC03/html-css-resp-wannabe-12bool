@@ -1,0 +1,39 @@
+
+ h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+img {
+  height: 180px;
+}
+
+body {
+  text-align: center;
+}
+
+.img-blue {
+  background-color: #428BCA;
+  border-radius: 50%;
+  height: 250px;
+  padding: 20px;
+}
+
+h1 , h2 , p , img, hr {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  hr {
+    display: none;
+  }
+  img {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+ img , .img-blue {
+   height: 120px;
+ }
+}
